@@ -5,3 +5,4 @@ analytics_output/
 .idea/
 .vscode/
 .DS_Store
+analytics_summary.parquet

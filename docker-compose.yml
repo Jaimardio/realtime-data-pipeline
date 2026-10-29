@@ -28,6 +28,6 @@ services:
     image: adobe/s3mock:latest
     container_name: s3-storage
     ports:
-      - "9000:9090"   # Wystawiamy na port 9000, żeby aplikacje pasowały bez zmian
+      - "9000:9090"   
     environment:
       - initialBuckets=clickstream-data

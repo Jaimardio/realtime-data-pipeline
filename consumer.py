@@ -23,7 +23,7 @@ s3_client = boto3.client(
     region_name='us-east-1',
 )
 
-# --- KLUCZOWY KROK: Jawne utworzenie kubełka w S3 Mock przed startem konsumenta ---
+# Jawne utworzenie kubełka w S3 Mock przed startem konsumenta
 try:
   s3_client.head_bucket(Bucket=BUCKET_NAME)
   print(f"📦 Kubełek '{BUCKET_NAME}' już istnieje w S3 Mock.")

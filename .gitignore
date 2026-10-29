@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+.env
+analytics_output/
+.idea/
+.vscode/
+.DS_Store
